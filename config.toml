@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://satrdays-event-template.netlify.com/"
+baseurl = "https://auckland2020.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
@@ -17,9 +17,9 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
-  # email = "your@email.com"
+  name = "satRday Auckland 2020"
+  description = "R conference in Auckland"
+  email = "satrday.auckland@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
@@ -50,10 +50,10 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "logo.png"
     services = "About"
-    portfolio = "Talks"
-    eventbrite = "Register"
-    schedule = "Schedule"
-    team = "People"
+    #portfolio = "Talks"
+    #eventbrite = "Register"
+    #schedule = "Schedule"
+    #team = "People"
     contact = "Get involved"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -77,8 +77,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Auckland"
+    subtitle = "A conference for R users in Auckland 202"
     bg = true
     buttonText = "Tell me more"
 
@@ -87,39 +87,41 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About"
-    subtitle = "Conference Details"
+    subtitle = ""
 
     [[params.services.row]]
+    
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "What's SatRday"
+      description = "R-focused conference on R and its applications"
+    #  url = "#"
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "[Conference Date] at [Conference Location]"
-      url = "#"
+      description = "Coming soon!"
+    #  url = "#"
 
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
-      url = "#"
+
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Learning"
       description = "Gain knowledge from your peers and experienced professionals"
-      url = "#"
+    #  url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community Lead"
       description = "Community organised, community focussed"
-      url = "#"
+    #  url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only [£30]"
-      url = "#"
+      description = "Low cost and accessible"
+     # url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
@@ -130,7 +132,7 @@ googleAnalytics = ""
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false # changed to false
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -138,7 +140,7 @@ googleAnalytics = ""
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false # changed to false
     title = "Register"
     bg = true
     eid = "32416000129" 
@@ -148,7 +150,7 @@ googleAnalytics = ""
       # Supply this string as the value to `eid` above
 
   [params.tickettailor]
-    enable = true
+    enable = false # changed to false
     title = "Register"
     bg = true
     eventviewid = "162430"
@@ -158,7 +160,7 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
     CfSpage = "/test3490"
@@ -167,7 +169,7 @@ googleAnalytics = ""
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -184,7 +186,7 @@ googleAnalytics = ""
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
@@ -192,7 +194,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Important Dates"
-    subtitle = "Be prepared!"
+    #subtitle = "Be prepared!"
     endpoint = "Conference"
 
     # The events will be listed from the top to the bottom.
@@ -204,34 +206,34 @@ googleAnalytics = ""
       title = "Initial Announcement"
       description = "We're organising a conference!"
 
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+   # [[params.about.events]]
+   #   img = "2.jpg"
+   #   date = "Second Date"
+   #   title = "Early Bird Ticket Sales"
+   #   description = "Early round of tickets now available at discount"
 
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+   # [[params.about.events]]
+   #   img = "3.jpg"
+   #   date = "Third Date"
+   #   title = "Call For Papers"
+   #  description = "Submissions for speakers are now open!"
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
+   # [[params.about.events]]
+   #  img = "4.jpg"
+   #  date = "Fourth Date"
+   #   title = "Call For Papers Ends"
+   #   description = "Cut off date for speaker submissions"
   
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Location Auckland, New Zealand"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
+    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6151690.45832364!2d-178.5487516414369!3d-41.16169477727013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1553034686266" 
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Team"
@@ -291,29 +293,20 @@ googleAnalytics = ""
     #center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
+    subtitle  = "Contact us for sponsorship!"
     bg = true
 
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
-    [[params.clients]]
-      logo = "envato.jpg"
-      link = "#"
+    #[[params.clients]]
+    #  logo = "envato.jpg"
+    #  link = "#"
 
-    [[params.clients]]
-      logo = "designmodo.jpg"
-      link = "#"
 
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
   
   [params.diversity]
-    enable = true
+    enable = false
     title = "Diversity"
     bg = true
 
@@ -321,7 +314,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Any questions? Want to get involved? Write to us!"
     buttonText = "Send message"
     # netlify = true
 
@@ -343,7 +336,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "satrday.auckland@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -361,9 +354,9 @@ googleAnalytics = ""
       text = "Your Email *"
       warning = "Please enter your email address."
 
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+   # [params.contact.form.phone] # Hidden
+   #   text = "Your Phone *"
+   #   warning = "Please enter your phone number."
 
     [params.contact.form.message]
       text = "Your Message *"
@@ -385,7 +378,7 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/satrdays_org"
+      link = "https://twitter.com/Satrday_NZ"
       title = "Twitter"
 
     [[params.footer.social]]
