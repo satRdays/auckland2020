@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://auckland2020.satrdays.org/"
 languageCode = "en-us"
-title = "satRday"
+title = "satRday Auckland"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
@@ -78,7 +78,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Auckland"
-    subtitle = "A conference for R users in Auckland 202"
+    subtitle = "A conference for R users <br> Q1 2020"
     bg = true
     buttonText = "Tell me more"
 
@@ -94,7 +94,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "What's SatRday"
-      description = "R-focused conference on R and its applications"
+      description = "A conference on R and its applications"
     #  url = "#"
 
     [[params.services.row.list]]
@@ -202,7 +202,7 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "First Date"
+      date = "18 March 2019"
       title = "Initial Announcement"
       description = "We're organising a conference!"
 
@@ -227,7 +227,7 @@ googleAnalytics = ""
   # Location section
   [params.location]
     enable = true
-    title = "Location Auckland, New Zealand"
+    title = "Location"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6151690.45832364!2d-178.5487516414369!3d-41.16169477727013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1553034686266" 
 
@@ -288,7 +288,7 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
@@ -306,7 +306,7 @@ googleAnalytics = ""
 
   
   [params.diversity]
-    enable = false
+    enable = true
     title = "Diversity"
     bg = true
 
