@@ -307,7 +307,7 @@ googleAnalytics = ""
   
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Code of Conduct"
     bg = true
 
   # Contact section
