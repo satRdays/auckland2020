@@ -229,7 +229,7 @@ googleAnalytics = ""
     enable = true
     title = "Location"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6151690.45832364!2d-178.5487516414369!3d-41.16169477727013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1553034686266" 
+    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6175450.700502186!2d173.27765749604234!3d-40.9079222941638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1554080447905!5m2!1sen!2snz" 
 
   # Team section
   [params.team]
