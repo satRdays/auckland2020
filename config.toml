@@ -261,8 +261,8 @@ googleAnalytics = ""
       # bio = """I do things,
       # and stuff"""
       social = [
-        ["fa-twitter", "Kim_Fitter"],
-        ["fa-github", "kimnewzealand"],
+        ["fa-twitter", "https://twitter.com/Kim_Fitter"],
+        ["fa-github", "https://github.com/kimnewzealand"],
         # ["fa-linkedin", "#"]
       ]
 
@@ -271,8 +271,8 @@ googleAnalytics = ""
       name = "Earo Wang"
       position = "Organiser"
       social = [
-        ["fa-twitter", "earowang"],
-        ["fa-github", "earowang"],
+        ["fa-twitter", "https://twitter.com/earowang"],
+        ["fa-github", "https://github.com/earowang"],
         # ["fa-linkedin", "#"]
       ]
 
