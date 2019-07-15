@@ -78,9 +78,9 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Auckland"
-    subtitle = "A conference for R users <br> Q1 2020"
-    bg = true
-    buttonText = "Tell me more"
+    subtitle = "22 February 2020"
+    bg = false
+    buttonText = "Learn more"
 
 
   # About [Services] section
@@ -206,11 +206,11 @@ googleAnalytics = ""
       title = "Initial Announcement"
       description = "We're organising a conference!"
 
-   # [[params.about.events]]
-   #   img = "2.jpg"
-   #   date = "Second Date"
-   #   title = "Early Bird Ticket Sales"
-   #   description = "Early round of tickets now available at discount"
+   [[params.about.events]]
+     img = "2.jpg"
+     date = "17 June 2019"
+     title = "Venue Confirmed"
+     description = "We're hosting the conference at the University of Auckland!"
 
    # [[params.about.events]]
    #   img = "3.jpg"
@@ -229,11 +229,11 @@ googleAnalytics = ""
     enable = true
     title = "Location"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6175450.700502186!2d173.27765749604234!3d-40.9079222941638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1554080447905!5m2!1sen!2snz" 
+    iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.588180033937!2d174.76691325104767!3d-36.85233777983939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47e383f32253%3A0xbd49f61f758a9e5b!2sThe+University+of+Auckland!5e0!3m2!1sen!2sau!4v1563179813447!5m2!1sen!2sau" 
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Team"
@@ -248,43 +248,43 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
+      name = "Kim Fitter"
+      position = "Chief organiser"
+      # reportsTo = ""
+      # livesIn = ""
+      # scope = [
+      #   "Role 1 for [thing 1](#)",
+      #   "Role 2 for [thing 2](#)",
+      #   "Role 3 for [thing 3](#)"
+      # ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      # bio = """I do things,
+      # and stuff"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "Kim_Fitter"],
+        ["fa-github", "kimnewzealand"],
+        # ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      name = "Earo Wang"
+      position = "Organiser"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "earowang"],
+        ["fa-github", "earowang"],
+        # ["fa-linkedin", "#"]
       ]
 
-    [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    # [[params.team.members]]
+    #   img = "faceholder.png"
+    #   name = "Organiser Name 3"
+    #   position = "Organiser Position 3"
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-github", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
 
   # Client section
   [params.clients_list]
