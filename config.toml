@@ -212,17 +212,23 @@ googleAnalytics = ""
      title = "Venue Confirmed"
      description = "We're hosting the conference at the University of Auckland!"
 
-   # [[params.about.events]]
-   #   img = "3.jpg"
-   #   date = "Third Date"
-   #   title = "Call For Papers"
-   #  description = "Submissions for speakers are now open!"
+   [[params.about.events]]
+     img = "3.jpg"
+     date = "December 2019"
+     title = "Call For Presentations"
+     description = "We're calling for talk submission!"
 
-   # [[params.about.events]]
-   #  img = "4.jpg"
-   #  date = "Fourth Date"
-   #   title = "Call For Papers Ends"
-   #   description = "Cut off date for speaker submissions"
+   [[params.about.events]]
+     img = "3.jpg"
+     date = "December 2019"
+     title = "Call for Talk Submission"
+     description = "Submissions for speakers are now open!"
+
+   [[params.about.events]]
+    img = "4.jpg"
+    date = "January 2020"
+    title = "Registration Open"
+    description = "We're opening registration"
   
   # Location section
   [params.location]
@@ -247,7 +253,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "kim.png"
       name = "Kim Fitter"
       position = "Chief organiser"
       # reportsTo = ""
@@ -267,7 +273,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "earo.jpg"
       name = "Earo Wang"
       position = "Organiser"
       social = [
@@ -276,6 +282,15 @@ googleAnalytics = ""
         # ["fa-linkedin", "#"]
       ]
 
+    [[params.team.members]]
+      img = "adam.jpg"
+      name = "Adam Gruer"
+      position = "Organiser"
+      social = [
+        ["fa-twitter", "https://twitter.com/adamgruer"],
+        ["fa-github", "https://github.com/adam-gruer"],
+        # ["fa-linkedin", "#"]
+      ]
     # [[params.team.members]]
     #   img = "faceholder.png"
     #   name = "Organiser Name 3"
