@@ -39,12 +39,12 @@
             {{ partial "about.html" . }}
             {{ end }}
             
-            {{ if .Site.Params.location.enable }}
-            {{ partial "location.html" . }}
-            {{ end }}
-            
             {{ if .Site.Params.team.enable }}
             {{ partial "team.html" . }}
+            {{ end }}
+            
+            {{ if .Site.Params.location.enable }}
+            {{ partial "location.html" . }}
             {{ end }}
             
             {{ if .Site.Params.diversity.enable }}

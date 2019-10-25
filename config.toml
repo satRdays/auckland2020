@@ -77,8 +77,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday Auckland"
-    subtitle = "22 February 2020"
+    # Photo Credit: <a href="https://www.flickr.com/photos/149145749@N04/46878367074/">chen kehan.</a> Flickr via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by/2.0/">cc</a>
+    title = "satRday Auckland @ Feb 22, 2020"
+    subtitle = "A conference for R users"
     bg = false
     buttonText = "Learn more"
 
@@ -100,7 +101,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "Coming soon!"
+      description = "Feb 22, 2020 @ Uni of Auckland"
     #  url = "#"
 
 
@@ -169,13 +170,13 @@ googleAnalytics = ""
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
-    subtitle = "Who's saying what"
+    title = "Speakers"
+    subtitle = ""
     bg = true
 
     [params.portfolio.modal]
@@ -194,47 +195,35 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Important Dates"
-    #subtitle = "Be prepared!"
-    endpoint = "Conference"
+    subtitle = "Be prepared!"
+    endpoint = ""
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
-    [[params.about.events]]
-      img = "1.jpg"
-      date = "18 March 2019"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
-
    [[params.about.events]]
-     img = "2.jpg"
-     date = "17 June 2019"
-     title = "Venue Confirmed"
-     description = "We're hosting the conference at the University of Auckland!"
-
-   [[params.about.events]]
-     img = "3.jpg"
-     date = "December 2019"
+     img = "1.jpg"
+     date = "November 2019"
      title = "Call For Presentations"
      description = "We're calling for talk submission!"
 
    [[params.about.events]]
-     img = "3.jpg"
-     date = "December 2019"
-     title = "Call for Talk Submission"
-     description = "Submissions for speakers are now open!"
+     img = "2.jpg"
+     date = "January 2019"
+     title = "Speakers Notified"
+     description = "Those who submitted a proposal will be notified if their talk has been accepted."
 
    [[params.about.events]]
-    img = "4.jpg"
+    img = "3.jpg"
     date = "January 2020"
     title = "Registration Open"
-    description = "We're opening registration"
+    description = "We're opening registration!"
   
   # Location section
   [params.location]
     enable = true
     title = "Location"
-    bg = true
+    bg = false
     iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.588180033937!2d174.76691325104767!3d-36.85233777983939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47e383f32253%3A0xbd49f61f758a9e5b!2sThe+University+of+Auckland!5e0!3m2!1sen!2sau!4v1563179813447!5m2!1sen!2sau" 
 
   # Team section
@@ -244,9 +233,9 @@ googleAnalytics = ""
     #center = true
     title = "Team"
     subtitle = "The people putting it together"
-    bg = false
+    bg = true
     description = ""
-    speakers = "Speakers"
+    speakers = ""
     
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -303,20 +292,23 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
-    subtitle  = "Contact us for sponsorship!"
-    bg = true
+    subtitle  = ""
+    bg = false
 
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
-    #[[params.clients]]
-    #  logo = "envato.jpg"
-    #  link = "#"
+    [[params.clients]]
+     logo = "rstudio.png"
+     link = "https://www.rstudio.com/"
+    [[params.clients]]
+     logo = "rconsortium.png"
+     link = "https://www.r-consortium.org/"
 
 
   
