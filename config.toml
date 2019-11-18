@@ -50,10 +50,10 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "logo.png"
     services = "About"
-    #portfolio = "Talks"
+    portfolio = "Speakers"
     #eventbrite = "Register"
     #schedule = "Schedule"
-    #team = "People"
+    team = "People"
     contact = "Get involved"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -161,12 +161,12 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = false
-    title = "Call For Papers"
-    bg = false
-    CfSpage = "/test3490"
+    enable = true
+    title = "Call For Speakers"
+    bg = true
+    CfSpage = "/satrdays-auckland-2020"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "21 Nov 2019 - 21 Jan 2020"
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -177,7 +177,7 @@ googleAnalytics = ""
     # For more informtion take a look at the README.
     title = "Speakers"
     subtitle = ""
-    bg = true
+    bg = false
 
     [params.portfolio.modal]
       client = "Client"
