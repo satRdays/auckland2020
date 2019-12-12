@@ -91,20 +91,18 @@ googleAnalytics = ""
     subtitle = ""
 
     [[params.services.row]]
-    
+
+    [[params.services.row.list]]
+      icon = "fa-map-marker"
+      title = "Venue"
+      description = "MLT1/303-G23 @ Uni of Auckland"
+    #  url = "#"
+
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "What's SatRday"
       description = "A conference on R and its applications"
     #  url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-clock-o"
-      title = "Details"
-      description = "Feb 22, 2020 @ Uni of Auckland"
-    #  url = "#"
-
-
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"

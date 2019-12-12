@@ -4,10 +4,10 @@ subtitle: "Second Subtitle"
 date: 1970-01-01
 startsAt: 00:01
 endsAt: 00:02
-img: roundicons.png
+img: Harkanwal.jpg
 preview: Harkanwal.jpg
 client: Data Visualisation Engineer
 clientLink: "#"
-category: Category 2
-description: "Harkanwal is a data visualisation programmer, currently working at Westpac NZ. Previously, he established and led the data journalism desk at the New Zealand Herald. He is passionate about visualisation as code. He programs in R, JavaScript and Python. He enjoys teaching data visualisation in his own time. He loves reading words and code, both preferably of others."
+bio: "Harkanwal is a data visualisation programmer, currently working at Westpac NZ. Previously, he established and led the data journalism desk at the New Zealand Herald. He is passionate about visualisation as code. He programs in R, JavaScript and Python. He enjoys teaching data visualisation in his own time. He loves reading words and code, both preferably of others."
+description: ""
 talk: true
