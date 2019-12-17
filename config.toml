@@ -99,24 +99,6 @@ googleAnalytics = ""
     #  url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "What's SatRday"
-      description = "A conference on R and its applications"
-    #  url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-graduation-cap"
-      title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
-    #  url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-users"
-      title = "Community Lead"
-      description = "Community organised, community focussed"
-    #  url = "#"
-
-    [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
       description = "Low cost and accessible"
