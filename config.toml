@@ -141,7 +141,7 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false # changed to false to close call for speakers
     title = "Call For Speakers"
     bg = true
     CfSpage = "/satrdays-auckland-2020"
@@ -195,7 +195,7 @@ googleAnalytics = ""
 
    [[params.about.events]]
     img = "3.jpg"
-    date = "January 2020"
+    date = "23 January 2020"
     title = "Registration Open"
     description = "We're opening registration!"
   
