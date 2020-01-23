@@ -121,7 +121,7 @@ googleAnalytics = ""
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true # changed to false
+    enable = true # changed to true
     title = "Register"
     bg = true
     eid = "90924687187" 
