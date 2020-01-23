@@ -49,10 +49,10 @@ googleAnalytics = ""
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"
-    portfolio = "Speakers"
+    aboutus = "About"
+    ourspeakers = "Speakers"
     eventbrite = "Register"
-    #schedule = "Schedule"
+    schedule = "Schedule"
     team = "People"
     contact = "Get involved"
 
@@ -84,27 +84,27 @@ googleAnalytics = ""
     buttonText = "Learn more"
 
 
-  # About [Services] section
-  [params.services]
+  # About [aboutus] section
+  [params.aboutus]
     enable = true
     title = "About"
     subtitle = ""
 
-    [[params.services.row]]
+    [[params.aboutus.row]]
 
-    [[params.services.row.list]]
+    [[params.aboutus.row.list]]
       icon = "fa-map-marker"
       title = "Venue"
       description = "MLT1/303-G23 @ Uni of Auckland"
     #  url = "#"
 
-    [[params.services.row.list]]
+    [[params.aboutus.row.list]]
       icon = "fa-money"
       title = "Affordable"
       description = "Low cost and accessible"
      # url = "#"
 
-    [[params.services.row.list]]
+    [[params.aboutus.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
       description = "Inclusive, supportive and respectful environment"
@@ -148,8 +148,8 @@ googleAnalytics = ""
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "21 Nov 2019 - 21 Jan 2020"
 
-  # Talk [Portfolio] section
-  [params.portfolio]
+  # Talk [ourspeakers] section
+  [params.ourspeakers]
     enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
@@ -159,7 +159,7 @@ googleAnalytics = ""
     subtitle = ""
     bg = false
 
-    [params.portfolio.modal]
+    [params.ourspeakers.modal]
       client = "Client"
       date = "Date"
       category = "Category"
@@ -171,8 +171,8 @@ googleAnalytics = ""
     title = "Schedule"
     bg = false
 
-  # Important Dates [About] section
-  [params.about]
+  # Important Dates [Schedule] section
+  [params.schedule]
     enable = true
     title = "Important Dates"
     subtitle = "Be prepared!"
@@ -181,19 +181,19 @@ googleAnalytics = ""
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
-   [[params.about.events]]
+   [[params.schedule.events]]
      img = "1.jpg"
      date = "November 2019"
      title = "Call For Presentations"
      description = "We're calling for talk submission!"
 
-   [[params.about.events]]
+   [[params.schedule.events]]
      img = "2.jpg"
      date = "January 2019"
      title = "Speakers Notified"
      description = "Those who submitted a proposal will be notified if their talk has been accepted."
 
-   [[params.about.events]]
+   [[params.schedule.events]]
     img = "3.jpg"
     date = "23 January 2020"
     title = "Registration Open"
