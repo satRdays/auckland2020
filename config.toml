@@ -101,7 +101,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Low cost and accessible"
+      description = "$60 Low cost and accessible"
      # url = "#"
 
     [[params.services.row.list]]
@@ -121,10 +121,10 @@ googleAnalytics = ""
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = false # changed to false
+    enable = true # changed to false
     title = "Register"
     bg = true
-    eid = "32416000129" 
+    eid = "90924687187" 
       # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
       # Follow instructions to discover your 'Website Integration' embeddable iframe
       # Take ONLY the numeric string between "eid=" and "&ref=etckt"
@@ -141,7 +141,7 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Speakers"
     bg = true
     CfSpage = "/satrdays-auckland-2020"
@@ -173,7 +173,7 @@ googleAnalytics = ""
 
   # Important Dates [About] section
   [params.about]
-    enable = true
+    enable = false
     title = "Important Dates"
     subtitle = "Be prepared!"
     endpoint = ""
