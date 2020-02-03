@@ -1,0 +1,14 @@
+modalID: 6
+title: "Thomas Lumley"
+subtitle: "DHBins: hexmaps for New Zealand"
+date: 1970-01-01
+startsAt: 00:01
+endsAt: 00:02
+img: lumley.jpg
+preview: lumley.jpg
+client: Professor
+clientLink: "#"
+category: Category 2
+bio: "Thomas is a biostatistician who has been developing R packages for more than twenty years. He is currently Professor of Biostatistics at the University of Auckland, and teaches in the Statistics and Data Science programs."
+description: "The DHBins package lets you show statistics for New Zealand Regional Councils and District Health Boards on a hexagonal map, making comparisons easy by size or colour. For categorical data, you can split each hex into six triangles. This was my first ever set of ggplot geoms!"
+talk: true
