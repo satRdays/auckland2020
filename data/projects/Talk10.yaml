@@ -1,0 +1,16 @@
+modalID: 11
+title: "Tom Elliott"
+subtitle: "iNZight: behind the scenes"
+date: 1970-01-01
+startsAt: 00:01
+endsAt: 00:02
+img: Tom.jpg
+preview: Tom.jpg
+client: Lead developer of iNZight
+clientLink: "#"
+category: Category 2
+bio: "Since 2014, Tom has been responsible for most of the development of iNZight, while also working towards a PhD in statistics."
+description: "iNZight is an R driven GUI, developed by students at UoA, providing a simple way for statistics learners to visually explore a dataset (and more). In this talk, I'll give a brief history of the student-led development of iNZight* (and my part in it) before describing a few of the core programming concepts we've used (or been stuck with) over the years, including OOP, reactivity, extensibility, and separability; with R examples, of course!<br>
+
+* The GTK-driven desktop version, not the Shiny-driven online version."
+talk: true

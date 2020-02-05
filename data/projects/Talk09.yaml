@@ -1,0 +1,14 @@
+modalID: 10
+title: "Jonathan Ng"
+subtitle: "Former Excel User Trains 12,000 Students to Use R"
+date: 1970-01-01
+startsAt: 00:01
+endsAt: 00:02
+img: JonathanProfilePicture.jpeg
+preview: JonathanProfilePicture.jpeg
+client: R Instructor
+clientLink: "#"
+category: Category 2
+bio: "Jonathan worked in a data science team in a Fortune 500 company in London where he developed training programs to teach Excel data analysts through to PhD statisticians how to become more productive with the modern R ecosystem. Since then he started his own training and consulting company DataStrategyPro.com which has trained over 12,000 students."
+description: "You don't need to be the most technical person to make a difference.  In this talk I'll discuss my journey, how I went from Excel user to landing a position on a data science team in a Fortune 500 company then starting my own business teaching R to over 12,000 students."
+talk: true

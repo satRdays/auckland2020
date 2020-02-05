@@ -1,0 +1,14 @@
+modalID: 14
+title: "Chris Wild"
+subtitle: "iNZight: Capabilities, aims, audiences and ambitions"
+date: 1970-01-01
+startsAt: 00:01
+endsAt: 00:02
+img: Chris_Wild.jpg
+preview: Chris_Wild.jpg
+client: Professor
+clientLink: "#"
+category: Category 2
+bio: "Chris is an Auckland Statistics Department lifer (41 years) and an education, outreach and software enthusiast https://www.stat.auckland.ac.nz/~wild/"
+description: "NZight is an R driven GUI that providing a simple way for visually exploring data and much more. It comes in two “flavours”, a GTK-driven desktop version and a Shiny-driven online version. Our aim is to empower a much wider cross-section of the populace with significant data-science capabilities, making these much more accessible to beginners and occasional users with gentler learning curves and much less reliance on knowing/remembering the names of the things you want to do. We are also working toward closing the GUI-coding loop with system-written R code and markdown files. For example, iNZight already writes code for most of the data-wrangling operations in “R for Data Science”, lots of ggplot2 graphics, and generalised linear modelling. Tom Elliot, the main system architect, is giving a related talk focussing on programming issues."
+talk: true

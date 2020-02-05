@@ -1,0 +1,14 @@
+modalID: 13
+title: "Jayne Ihaka"
+subtitle: "Chatbot analytics with R"
+date: 1970-01-01
+startsAt: 00:01
+endsAt: 00:02
+img: Jayne_Ihaka.jpg
+preview: Jayne_Ihaka.jpg
+client: Banker & Data Enthusiast
+clientLink: "#"
+category: Category 2
+bio: "Jayne is a banker and data enthusiast, with a newfound passion for conversational AI. Jayne works at ANZ New Zealand raising a digital assistant called Jamie."
+description: "How do you quantify a good conversation? How can analytics help make digital assistants smarter? This talk will cover lessons learned through using R to extract useful insights from conversation data."
+talk: true
