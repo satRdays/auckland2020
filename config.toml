@@ -51,8 +51,8 @@ googleAnalytics = ""
     logo = "logo.png"
     services = "About"
     portfolio = "Speakers"
-    #eventbrite = "Register"
-    #schedule = "Schedule"
+    eventbrite = "Register"
+    schedule = "Schedule"
     team = "People"
     contact = "Get involved"
 
@@ -167,9 +167,9 @@ googleAnalytics = ""
 
   # Schedule section
   [params.schedule]
-    enable = false
+    enable = true
     title = "Schedule"
-    bg = false
+    bg = true
 
   # Important Dates [About] section
   [params.about]
@@ -214,7 +214,7 @@ googleAnalytics = ""
     #center = true
     title = "Team"
     subtitle = "The people putting it together"
-    bg = true
+    bg = false
     description = ""
     speakers = ""
     
