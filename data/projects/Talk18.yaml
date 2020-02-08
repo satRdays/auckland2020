@@ -1,0 +1,14 @@
+modalID: 19
+title: "Antony Southworth"
+subtitle: "R in Production. Yes, really!"
+date: 1970-01-01
+startsAt: 00:01
+endsAt: 00:02
+img: Antony_Southworth.png
+preview: Antony_Southworth.png
+client: Data Engineer
+clientLink: "#"
+category: Category 2
+bio: "Antony started a degree in Mechatronics Engineering at the University of Auckland in early 2014. After stumbling across the data science world, he began studying data science and computer programming in his own time, eventually coming to join Quantiful as Analytics Data Engineer.  He now works to close the gap between 'developer machine' and 'production environment' through automation and containerisation."
+description: "A high-level look at how R can be used in production."
+talk: true

@@ -1,0 +1,15 @@
+modalID: 18
+title: "Caleb Moses"
+subtitle: "Reproducible science at Dragonfly"
+date: 1970-01-01
+startsAt: 00:01
+endsAt: 00:02
+img: Caleb_Moses.png
+preview: Caleb_Moses.png
+client: Data Scientist
+clientLink: "#"
+category: Category 2
+bio: "Caleb is a Māori mathematician from the Hokianga region whose interests are machine learning, language and automation. Before joining Dragonfly in 2018 he worked at Stats NZ in a statistical analyst role focused on privacy, data visualisation and automating routine tasks.
+He has a bachelor’s degree and a postgraduate diploma in pure mathematics from the University of Auckland. Caleb is passionate about language. He speaks Japanese fluently and is currently learning Te Reo Māori and Korean."
+description: "Dragonfly Data Science is a team of 8 scientists who do statistical work across ecology, linguistics, industry and the public sector. We are stubborn proponents of reproducible work, and achieve this using a mix of make, docker and our own continuous integration system, Gorbachev. I will be talking about how we combine these tools to create a flexible, reproducible work environment that we have been able to use to solve a vast range of analytical challenges."
+talk: true
