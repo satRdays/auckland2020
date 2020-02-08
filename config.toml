@@ -53,6 +53,7 @@ googleAnalytics = ""
     portfolio = "Speakers"
     eventbrite = "Register"
     schedule = "Schedule"
+    location = "Location"
     team = "People"
     contact = "Get involved"
 
@@ -204,7 +205,7 @@ googleAnalytics = ""
     enable = true
     title = "Location"
     subtitle = "MLT1/303-G23, The University of Auckland"
-    bg = false
+    bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d399.07195591583394!2d174.7676465660333!3d-36.85263786130034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47e480845a69%3A0xe12bb1a0e6ab5209!2sUniversity%20of%20Auckland%20Faculty%20of%20Science%20(Building)!5e0!3m2!1sen!2snz!4v1581141008091!5m2!1sen!2snz" 
 #
   # Team section
@@ -279,7 +280,7 @@ googleAnalytics = ""
     # Optional client title specifying the involvement
     title = "Sponsors"
     subtitle  = ""
-    bg = false
+    bg = true
 
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
@@ -296,7 +297,7 @@ googleAnalytics = ""
   [params.diversity]
     enable = true
     title = "Code of Conduct"
-    bg = true
+    bg = false
 
   # Contact section
   [params.contact]
