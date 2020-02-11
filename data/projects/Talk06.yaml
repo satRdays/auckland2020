@@ -9,16 +9,26 @@ preview: harel-square.jpg
 client: Data Scientist
 clientLink: "#"
 category: Category 2
-bio: "Harel Lustiger is a Data Scientist at Harmonic Analytics Ltd. specialising in Machine Learning Architecture. His work includes building Machine Learning systems for New Zealand’s largest utility companies and public sector organisations. Harel started his career as an Electronics Engineer and after having a change of heart, moved into Statistics where he worked in Academic research for three years."
-description: "Data science projects in commercial companies often experience a challenge arising from evolving data sources. As the project progresses, new signals and information sources are added incrementally. In practice, when the data source changes, it creates a need to change the application source code.<br>
-
-With no design up front, some application modules, such as a dashboard or machine learning model, unwittingly become dependent on the data source. In this case, accommodating the evolving data source is not simply a matter of changing the code related to the data source. Rather, preserving the rest of the existing application in a working condition involves further code changes in distant elements of the application.<br>
-
+bio: "Harel Lustiger is a Data Scientist at Harmonic Analytics Ltd. specialising in Machine Learning Architecture. His work includes building Machine Learning systems for New Zealand’s largest utility companies and public sector organisations.<br>
+ 
+Harel sees data science as craftsmanship. As such, he is on a continuous journey to find good data science practices. His talks and writings aim to localise and communicate essential practices from Software Engineering and Statistics.<br> 
+ 
+In 2012, after watching IBM Watson competing with (and beating) human players, Harel decided to change his profession from Electrical Engineering to Statistics. Three years later, he became the first Data Science Researcher at the Tel-Aviv University School of Management.
+"
+description: "
+Data science projects in commercial companies often experience a challenge arising from evolving data sources. As the project progresses, new signals and information sources are added incrementally. In practice, when the data source changes, it creates a need to change the application source code.<br>
+  
+With no design up front, some application modules, such as a dashboard or a machine learning model, unwittingly become dependent on the data source. In this case, accommodating the evolving data source is not simply a matter of changing the code related to the data source. Rather, preserving the rest of the existing application in a working condition involves further code changes in distant elements of the application.<br> 
+  
 An alternative way of dealing with evolving data sources is to introduce a small design up front. Such design lets programmers manage the source code dependencies throughout the project life-cycle.<br>
-
+  
 This talk suggests a design that (1) separates data sources from analytic applications and (2) restricts analytic applications from knowing about the data sources.<br>
-
+  
 While the evolving data sources challenge is programming language agnostic, this talk demonstrates an implementation of the suggested design in R.<br>
+  
+The takeaway of this talk is a design of a system, where data sources are plugins to the system’s analytic applications.<br>
+ 
+Presentation Link: <https://speakerdeck.com/harell/data-tests>
 
-The takeaway of this talk is a design of a system, where data sources are plugins to the system’s analytic applications."
+"
 talk: true
