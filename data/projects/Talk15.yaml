@@ -1,14 +1,14 @@
 modalID: 16
-title: "Smita Agrawal"
-subtitle: "Data Exploration with R"
+title: "Victoria King"
+subtitle: "I dream of gg(plot2): visualising sleep in pregnancy with R"
 date: 1970-01-01
 startsAt: 13:00
 endsAt: 13:05
-img: Smita_Agrawal.jpg
-preview: Smita_Agrawal.jpg
-client: Data Scientist
+img: Victoria.jpg
+preview: Victoria.jpg
+client: PhD student
 clientLink: "#"
 category: Category 2
-bio: "Data Scientist with MSc Statistics and 8+ yrs of experience in Machine Learning"
-description: "How to explore data in R in an effective way?"
+bio: "Victoria is a physiology PhD student. She likes making pictures with numbers and good coffee."
+description: "Sleep is a universal yet highly individual activity. What does it look like in pregnancy? Take a quick look at how simple visualisations can help develop group insights from heterogenous sleep data."
 talk: true
