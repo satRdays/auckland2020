@@ -185,6 +185,8 @@ googleAnalytics = ""
   [params.schedule]
     enable = true
     title = "Schedule"
+    subtitle ="Photos (https://photos.app.goo.gl/NiFHFUnqVkbAJbydA) and YouTube
+videos (https://www.youtube.com/playlist?list=PL8ncIDIP_e6v1dV1xVacsH4qjuoPMMnDe)"
     bg = true
 
 <<<<<<< HEAD
