@@ -1,0 +1,14 @@
+modalID: 21
+title: "John Graves"
+subtitle: "How to be more productive as a Data Scientist"
+date: 1970-01-01
+startsAt: 13:20
+endsAt: 13:25
+img: John_Graves.jpg
+preview: John_Graves.jpg
+client: Data Scientist
+clientLink: "#"
+category: Category 2
+bio: "Data Scientist at Datamine, Senior Data Scientist at Qrious and now Head of Data Science at Electric Kiwi. PhD in Computer Science from AUT. Organiser of Auckland Data Science Lunch http://bit.ly/AKLDSL and partner in Data Science Academy https://www.datascienceacademy.co.nz/"
+description: "Owen Flanagan recently posted on LinkedIn on this topic. This lightning talk aims to cover his points and more in just 5 minutes."
+talk: true

@@ -1,13 +1,14 @@
 modalID: 1
 title: "Jacquie Tran"
-subtitle: "Talk Title"
+subtitle: "Data practices and data problems in performance sport"
 date: 1970-01-01
-startsAt: 00:00
-endsAt: 00:01
+startsAt: 10:45
+endsAt: 11:05
 img: JacquieTran.jpg
 preview: JacquieTran.jpg
 client: Sport Scientist
+bio: "Jacquie Tran is a sport scientist from Melbourne, Australia. She currently works as Team Leader for the Knowledge Edge for Tokyo team at High Performance Sport New Zealand. In this team, Jacquie uses qualitative and quantitative research methods to explore the aspects of preparation that contribute to successful performances at pinnacle events."
 clientLink: "#"
 category: Category 1
-description: "Abstract"
+description: "Sports performance data is abundant - with technological improvements, location tracking, video, inertial sensors, physiological monitoring, and activity logs have become commonplace in elite sport settings. In this talk, I'll share some insights into how data is used in performance sport today and what opportunities lie ahead for sports organisations and professionals to improve their use of data."
 talk: true

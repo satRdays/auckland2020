@@ -239,7 +239,6 @@ section h3.section-subheading {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
 /* Static pages */
 
 staticheader {
@@ -394,7 +393,7 @@ p.ps {
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 0 auto;
-    max-width: 50rem;
+    max-width: auto;
 }
 
 .ScheduleItem:first-of-type {
@@ -421,8 +420,8 @@ p.ps {
 }
 
 .ScheduleItem--service {
-    border-left-color: #333;
-    background: #f7f7f7;
+    background: #8cb6fa;
+    font-style: italic;
 }
 
 .ScheduleItem-time {
@@ -433,16 +432,26 @@ p.ps {
 .ScheduleItem-time p {
     margin: 0;
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .ScheduleItem-title {
     flex: 1;
     text-transform: none;
     color: #222;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.8rem;
+    max-width: 20rem;
+}
+
+.ScheduleItem-subtitle {
+    flex: 1;
+    text-transform: none;
+    color: #222;
     font-weight: normal;
     margin: 0;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 

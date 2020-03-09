@@ -18,7 +18,7 @@
               <p>{{ with $.Site.Params.portfolio.modal.bio }}{{ . }}{{ end }} {{ .bio  | markdownify }}</p>
               <hr>
               <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
-              <p>{{ .description | markdownify }}</p>
+              <p style="text-align:left;">{{ .description | markdownify }}</p>
               <!-- <ul class="list&#45;inline"> -->
               <!--   <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li> -->
               <!--   <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li> -->

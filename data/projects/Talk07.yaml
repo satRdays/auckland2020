@@ -1,0 +1,14 @@
+modalID: 8
+title: "Zhuojia Dai"
+subtitle: "Handling larger-than-RAM data with ease"
+date: 1970-01-01
+startsAt: 17:10
+endsAt: 17:30
+img: ZJDai.png
+preview: ZJDai.png
+client: Data Scientist
+clientLink: "#"
+category: Category 2
+bio: "ZJ has been using R for more than 10 years. He loves contributing to open source."
+description: "{disk.frame} is a new package for manipulating larger-than-RAM data in R. In this talk we will introduce the package and show you how to manipulate 1.8 billion rows of data in under one minute."
+talk: true

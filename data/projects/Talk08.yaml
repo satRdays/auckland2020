@@ -1,0 +1,14 @@
+modalID: 9
+title: "Aaron Schiff"
+subtitle: "Making your own ggplot2 theme"
+date: 1970-01-01
+startsAt: 14:20
+endsAt: 14:40
+img: Aaron_Schiff.jpg
+preview: Aaron_Schiff.jpg
+client: Economist & Data Scientist
+clientLink: "#"
+category: Category 2
+bio: "Aaron Schiff is a freelance consulting economist and data scientist."
+description: "A brief introduction to creating your own ggplot2 theme, followed by a closer look at some of the fiddly details of making your theme look _just so_."
+talk: true

@@ -1,13 +1,14 @@
 modalID: 3
 title: "Anna Fergusson"
-subtitle: "Second Subtitle"
+subtitle: "Five ways to make learnr even better for teaching"
 date: 1970-01-01
-startsAt: 00:01
-endsAt: 00:02
+startsAt: 15:30
+endsAt: 15:50
 img: AnnaFergusson.jpg
 preview: AnnaFergusson.jpg
 client: Professional Teaching Fellow
 clientLink: "#"
 category: Category 2
-description: "Describe 2"
+bio: "Anna Fergusson is obsessed with teaching, in particular with developing inclusive, engaging, accessible, effective and fun ways to introduce people to learning statistics and data science. Before joining the University of Auckland as a Professional Teaching Fellow (Statistics), she was Head of Mathematics and Statistics at Avondale College for five years and a classroom teacher for 12 years. Anna is on the steering group the New Zealand Statistical Association education committee and is involved with the international collaboration between the New Zealand Statistical Association and the American Statistical Association. Her research has focused on exploring task and tool design for teaching statistical modelling. As part of her PhD research project, Anna is currently working closely with high school teachers to develop tools, tasks, assessment and learning programmes to support data science education at high school level."
+description: "The `learnr` package allows you to turn any R Markdown document into an interactive HTML-based tutorial with videos, code exercises, quiz questions and other interactive 'shiny' things. It's a great tool to use for teaching R, and an even better tool when you exploit its potential to meet the needs of your learners. In this talk, I will share five ways that I have used learnr to engage introductory-level students with data science and discuss how each of these approaches enhanced the learning experience."
 talk: true

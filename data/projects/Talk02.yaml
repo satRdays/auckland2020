@@ -1,13 +1,13 @@
 modalID: 2
 title: "Harkanwal Singh"
-subtitle: "Second Subtitle"
+subtitle: "The craft of data storytelling"
 date: 1970-01-01
-startsAt: 00:01
-endsAt: 00:02
+startsAt: 13:40
+endsAt: 14:00
 img: Harkanwal.jpg
 preview: Harkanwal.jpg
 client: Data Visualisation Engineer
 clientLink: "#"
 bio: "Harkanwal is a data visualisation programmer, currently working at Westpac NZ. Previously, he established and led the data journalism desk at the New Zealand Herald. He is passionate about visualisation as code. He programs in R, JavaScript and Python. He enjoys teaching data visualisation in his own time. He loves reading words and code, both preferably of others."
-description: ""
+description: "Beyond the software, what are the elements of telling a compelling data story. The talk focuses on the importance of context and why you should never buy into the storytelling aspect beyond a certain point. Don't fall in love with your stories, stay true to the data."
 talk: true

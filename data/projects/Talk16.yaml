@@ -1,0 +1,14 @@
+modalID: 17
+title: "Owen Flanagan"
+subtitle: "What are people tweeting about Donald Trump"
+date: 1970-01-01
+startsAt: 13:05
+endsAt: 13:10
+img: Owen_Flanagan.jpg
+preview: Owen_Flanagan.jpg
+client: Data Scientist
+clientLink: "#"
+category: Category 2
+bio: "Data Scientist at Mott MacDonald. AUT Masters of Analytics Graduate"
+description: "An overview of some simple techniques to gather and present a large dataset using AWS and Shiny."
+talk: true
