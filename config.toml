@@ -148,7 +148,6 @@ googleAnalytics = ""
   [params.callforpapers]
 
     enable = false # changed to false to close call for speakers
-    enable = false
     title = "Call For Speakers"
     bg = true
     CfSpage = "/satrdays-auckland-2020"
