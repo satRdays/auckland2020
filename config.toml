@@ -127,7 +127,6 @@ googleAnalytics = ""
 
   [params.eventbrite]
     enable = true # changed to true
-    enable = true # changed to false
     title = "Register"
     bg = true
     eid = "90924687187"
@@ -189,7 +188,6 @@ videos (https://www.youtube.com/playlist?list=PL8ncIDIP_e6v1dV1xVacsH4qjuoPMMnDe
   # Important Dates [About] section
   [params.about]
     enable = false
->>>>>>> d8d0f373e597b790024cc8d43957a7e1809a81f6
     title = "Important Dates"
     subtitle = "Be prepared!"
     endpoint = ""
