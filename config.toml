@@ -49,7 +49,7 @@ googleAnalytics = ""
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    aboutus = "About"
+    services = "About"
     portfolio = "Speakers"
     eventbrite = "Register"
     schedule = "Schedule"
@@ -212,7 +212,7 @@ googleAnalytics = ""
     #center = true
     title = "Team"
     subtitle = "The people putting it together"
-    bg = false
+    bg = true
     description = ""
     speakers = ""
 
