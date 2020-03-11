@@ -56,10 +56,8 @@ googleAnalytics = ""
 
     services = "About"
     portfolio = "Speakers"
-    eventbrite = "Register"
-    schedule = "Schedule"
     location = "Location"
->>>>>>> d8d0f373e597b790024cc8d43957a7e1809a81f6
+
     team = "People"
     contact = "Get involved"
 
