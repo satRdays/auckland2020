@@ -179,10 +179,6 @@ googleAnalytics = ""
     bg = true
 
 
-  # Important Dates [Schedule] section
-  [params.schedule]
-    enable = true
-
   # Important Dates [About] section
   [params.about]
     enable = false
