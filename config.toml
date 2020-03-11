@@ -49,12 +49,11 @@ googleAnalytics = ""
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-<<<<<<< HEAD
     aboutus = "About"
     ourspeakers = "Speakers"
     eventbrite = "Register"
     schedule = "Schedule"
-=======
+
     services = "About"
     portfolio = "Speakers"
     eventbrite = "Register"
@@ -129,11 +128,8 @@ googleAnalytics = ""
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-<<<<<<< HEAD
     enable = true # changed to true
-=======
     enable = true # changed to false
->>>>>>> d8d0f373e597b790024cc8d43957a7e1809a81f6
     title = "Register"
     bg = true
     eid = "90924687187"
@@ -153,11 +149,9 @@ googleAnalytics = ""
 
   # Call for papers section
   [params.callforpapers]
-<<<<<<< HEAD
+
     enable = false # changed to false to close call for speakers
-=======
     enable = false
->>>>>>> d8d0f373e597b790024cc8d43957a7e1809a81f6
     title = "Call For Speakers"
     bg = true
     CfSpage = "/satrdays-auckland-2020"
@@ -189,11 +183,11 @@ googleAnalytics = ""
 videos (https://www.youtube.com/playlist?list=PL8ncIDIP_e6v1dV1xVacsH4qjuoPMMnDe)"
     bg = true
 
-<<<<<<< HEAD
+
   # Important Dates [Schedule] section
   [params.schedule]
     enable = true
-=======
+
   # Important Dates [About] section
   [params.about]
     enable = false
